@@ -26,94 +26,86 @@
  */
 
 const CONFIG = {
-  // ── Recipient Info ────────────────────────────────────────────
-  name: "Irene",
-  photo: "./img/irene.jpg",       // Place your photo in the img/ folder
-  music: "./music/hbd.mpeg",      // Place your music in the music/ folder
+  // Personaliza estos datos
+  name: "Querido Anthony",
+  photo: "./img/amigo.jpg",
+  music: "./music/cancion.mp3",
 
-  // ── Theme Colors ──────────────────────────────────────────────
-  // A toggle button lets the viewer switch between dark & light mode.
+  // Estilo elegante: negro, dorado y blanco
   colors: {
-    primary: "#f472b6",           // Main accent color (rose pink)
-    accent: "#60a5fa",            // Secondary accent color (sky blue)
+    primary: "#d4af37",
+    accent: "#f5d76e",
     dark: {
-      background: "#0f172a",      // Slate 900
-      text: "#f1f5f9",            // Slate 100
+      background: "#090909",
+      text: "#f5f0e5",
     },
     light: {
-      background: "#fafaf9",      // Stone 50
-      text: "#1e293b",            // Slate 800
+      background: "#f8f5ed",
+      text: "#252116",
     },
   },
 
-  // ── Default Color Mode ────────────────────────────────────────
-  // Options: "dark" or "light"
   defaultMode: "dark",
 
-  // ── Sections ──────────────────────────────────────────────────
-  // Add, remove, duplicate, or reorder as you wish!
   sections: [
     {
       type: "greeting",
-      title: "Hi",
-      subtitle: "I really like your name btw!",
+      title: "Hola",
+      subtitle: "Hoy es un día especial para alguien increíble.",
     },
     {
       type: "countdown",
-      from: 3,                    // Countdown from this number
-      goText: "🎉",              // Text shown after countdown ends
+      from: 3,
+      goText: "✦",
     },
     {
       type: "announcement",
-      text: "It's your birthday!! :D",
+      text: "¡Feliz cumpleaños!",
     },
     {
       type: "chatbox",
       message:
-        "Happy birthday to youu!! Wishing you a wonderful year ahead filled with joy, love, and endless happiness!",
-      buttonText: "Send",
+        "Ojala pudiera estar para celebrar este dia como se debe, Anthony... mucho que decir aun asi a mis ojos sigues siendo un hombre maravilloso y espero que hoy tengas un exelente dia hoy",
+      buttonText: "Abrir mensaje",
     },
     {
       type: "ideas",
       lines: [
-        "That's what I was going to do.",
-        "But then I stopped.",
-        "I realised, I wanted to do something <strong>special</strong>.",
-        "Because,",
-        "You are Special <span>:)</span>",
+        " A pesar de todo...",
+        "Sin importar el tiempo o la distancia.",
+        "eres y seras una persona muy importante para mi.",
+        "es por eso que hoy celebro.",
+        "¡porque tu sonrisa lo es todo!",
       ],
-      bigLetters: "SO",
+      bigLetters: "FELIZ",
     },
     {
       type: "quote",
-      text: "The more you praise and celebrate your life, the more there is in life to celebrate.",
-      author: "Oprah Winfrey",
+      text: "Los mejores recuerdos nacen de los momentos sencillos y de las personas que los hacen especiales.",
+      author: "Para ti, con amor y cariño",
     },
     {
       type: "stars",
-      count: 40,
-    },
-    {
-      type: "balloons",
-      count: 25,
+      count: 27,
     },
     {
       type: "profile",
-      wishTitle: "Happy Birthday!",
-      wishText: "May the js.prototypes always be with you! ;)",
+      wishTitle: "Un recuerdo para siempre",
+      wishText:
+        "una foto bonita para alguien bonito.",
     },
     {
       type: "fireworks",
-      count: 24,
+      count: 18,
     },
     {
       type: "confetti",
-      count: 9,
+      count: 8,
     },
     {
       type: "closing",
-      text: "Okay, now come back and tell me if you liked it.",
-      replayText: "Or click, if you want to watch it again.",
+      text: "Gracias por todo. ¡Que tengas un cumpleaños inolvidable!",
+      replayText: "Vuelve a ver tu sorpresa",
     },
   ],
 };
