@@ -29,7 +29,7 @@ const CONFIG = {
   // Personaliza estos datos
   name: "Querido Anthony",
   photo: "./img/af.jpg",
-  music: "./music/cancion.mp3",
+  music: "./music/song_writing_by_brad-can-you-do-a-mj-447026 (1).mp3",
 
   // Estilo elegante: negro, dorado y blanco
   colors: {
